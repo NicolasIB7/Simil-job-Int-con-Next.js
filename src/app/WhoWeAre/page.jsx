@@ -36,7 +36,7 @@ function WhoWeAre() {
     <div className={styles.fotos}>
         {fotos.map((item)=>{
           return(
-            <div className={styles.card}>
+            <div key={item.name} className={styles.card}>
               <img src={item.img} alt="foto" style={{height:430, marginBottom:20, borderRadius:"3%"}} />
               <h5 className={styles.h5}>{item.nombre}</h5>
               <span style={{color:"#0D164E"}}>{item.cargo}</span>
