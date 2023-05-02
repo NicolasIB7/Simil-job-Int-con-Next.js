@@ -1,39 +1,51 @@
-
-
-import React from 'react'
+import React from "react";
 import style from "./Contact.module.css";
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { AiOutlineMail } from 'react-icons/ai';
-import { BsFillTelephoneFill } from 'react-icons/bs';
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsFillTelephoneFill } from "react-icons/bs";
 
-import Form from './Form';
+import Form from "./Form";
 
 function Contact() {
-
- 
   return (
     <div>
-        <section id="seccion3">
-
-
-          <div className={style.div}>
-
+      <section id='seccion3'>
+        <div className={style.div}>
           <div className={style.info}>
-              
             <h1 className={style.h1}>Contactate con nosotros</h1>
-            
-            <h3 className={style.h3}> <FaMapMarkerAlt style={{color:"#FF1A88", marginRight:"2%"}}/> Oficina</h3>
-            <p style={{fontSize: 25}}>Arévalo 1880, Piso 3, Palermo, Ciudad </p>
+
+            <h3 className={style.h3}>
+              {" "}
+              <FaMapMarkerAlt
+                style={{ color: "#FF1A88", marginRight: "2%" }}
+              />{" "}
+              Oficina
+            </h3>
+            <p style={{ fontSize: 25 }}>
+              Arévalo 1880, Piso 3, Palermo, Ciudad{" "}
+            </p>
             <p className={style.p}>Autónoma de Buenos Aires, Argentina.</p>
-            
-            <h3 className={style.h3}> <AiOutlineMail style={{color:"#FF1A88", marginRight:"2%"}}/> Contacto</h3>
+
+            <h3 className={style.h3}>
+              {" "}
+              <AiOutlineMail
+                style={{ color: "#FF1A88", marginRight: "2%" }}
+              />{" "}
+              Contacto
+            </h3>
             <p className={style.p}> contacto@jobint.com</p>
-            
-            <h3 className={style.h3}> <BsFillTelephoneFill style={{color:"#FF1A88", marginRight:"2%"}}/>Teléfono</h3>
+
+            <h3 className={style.h3}>
+              {" "}
+              <BsFillTelephoneFill
+                style={{ color: "#FF1A88", marginRight: "2%" }}
+              />
+              Teléfono
+            </h3>
             <p className={style.p}>0810-333-4499</p>
           </div>
 
-          <Form/>
+          <Form />
 
           {/* <div className={style.form}>
             <form>
@@ -57,17 +69,10 @@ function Contact() {
 
             </form>
           </div> */}
-
-          </div>
-
-
-
-        </section>
-
-
+        </div>
+      </section>
     </div>
-    
-  )
+  );
 }
 
-export default Contact
+export default Contact;

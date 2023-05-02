@@ -1,85 +1,83 @@
-.h1{
-    font-size: 65px;
-    margin-bottom: 5%;
-    width: 30%;
-    margin: auto;
-  }
+.h1 {
+  font-size: 65px;
+  margin-bottom: 5%;
+  width: 30%;
+  margin: auto;
+}
 
-  .all{
-    margin-top: 10%;
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    color: #0d164e;
-    background-color: #eef4f4;
-  }
+.all {
+  margin-top: 10%;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  color: #0d164e;
+  background-color: #eef4f4;
+}
 
-  .cards{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-left: 5%;
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    font-size: 25px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
-  }
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 5%;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  font-size: 25px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
-  .card1{
-    display: flex ;
-    flex-direction: column;
-    width: 85%;
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    border: solid rgba(77, 77, 77, 0.041) 1px;
-    box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
-    background-color: white;
-    padding: 8%;
-    border-radius: 2%;
-  }
-  .card2{
-    display: flex ;
-    flex-direction: column;
-    width: 85%;
-    display: flex ;
-    flex-direction: column;
-    border: solid rgba(77, 77, 77, 0.041) 1px;
-    box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    padding: 8%;
-    background-color: white;
-    border-radius: 2%;
-  }
-  .card3{
-    display: flex ;
-    flex-direction: column;
-    width: 85%;
-    display: flex ;
-    flex-direction: column;
-    border: solid rgba(77, 77, 77, 0.041) 1px;
-    box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
-    padding: 8%;
-    background-color: white;
-    border-radius: 2%;
-  }
-  .card4{
-    display: flex ;
-    flex-direction: column;
-    width: 85%;
-    display: flex ;
-    flex-direction: column;
-    border: solid rgba(77, 77, 77, 0.041) 1px;
-    box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
-    padding: 8%;
-    background-color: white;
-    border-radius: 2%;
-  }
+.card1 {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  border: solid rgba(77, 77, 77, 0.041) 1px;
+  box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
+  background-color: white;
+  padding: 8%;
+  border-radius: 2%;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  border: solid rgba(77, 77, 77, 0.041) 1px;
+  box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  padding: 8%;
+  background-color: white;
+  border-radius: 2%;
+}
+.card3 {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  border: solid rgba(77, 77, 77, 0.041) 1px;
+  box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
+  padding: 8%;
+  background-color: white;
+  border-radius: 2%;
+}
+.card4 {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  border: solid rgba(77, 77, 77, 0.041) 1px;
+  box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
+  padding: 8%;
+  background-color: white;
+  border-radius: 2%;
+}
 
-  .h3{
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    font-size: 100px;
-  }
+.h3 {
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  font-size: 100px;
+}
 
-  .carrusel{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    margin-top: 5%;
- 
-  }
+.carrusel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-top: 5%;
+}

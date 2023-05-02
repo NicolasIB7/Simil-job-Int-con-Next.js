@@ -1,20 +1,20 @@
-
 import Link from "next/link";
 import style from "./Navigation.module.css";
-import { BsInstagram, BsLinkedin } from 'react-icons/bs';
-
+import { BsInstagram, BsLinkedin } from "react-icons/bs";
 
 export function Navigation() {
-
-  
   return (
     <header className={style.header}>
       <nav className={style.nav}>
-      <Link href='/' style={{marginBottom:"4%"}}>
-        <img src="https://www.jobint.com/wp-content/uploads/2022/05/logo-jobint.png" alt="jobint" className={style.imagen} />
+        <Link href='/' style={{ marginBottom: "4%" }}>
+          <img
+            src='https://www.jobint.com/wp-content/uploads/2022/05/logo-jobint.png'
+            alt='jobint'
+            className={style.imagen}
+          />
         </Link>
         <ul className={style.ul}>
-        <li className={style.li}>
+          <li className={style.li}>
             <Link href='/'>
               <span>Home</span>
             </Link>
@@ -41,13 +41,18 @@ export function Navigation() {
           </li>
         </ul>
         <div className={style.iconos}>
-        <span className={style.icono}><a href="https://www.instagram.com/somosjobint/"><BsInstagram/></a></span>
-        <span className={style.icono}><a href="https://www.linkedin.com/company/jobint/"><BsLinkedin/></a></span>
+          <span className={style.icono}>
+            <a href='https://www.instagram.com/somosjobint/'>
+              <BsInstagram />
+            </a>
+          </span>
+          <span className={style.icono}>
+            <a href='https://www.linkedin.com/company/jobint/'>
+              <BsLinkedin />
+            </a>
+          </span>
         </div>
       </nav>
-
-     
-      
     </header>
   );
 }

@@ -1,22 +1,22 @@
-"use client"
+"use client";
 
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  'https://www.jobint.com/wp-content/uploads/2022/06/grupo-piero-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/suavestar-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/piero-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/lbdo-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/gani-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/femsa-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/cannon-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/bbva-2-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/verisure-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/prisma-1-320x202.png',
-  'https://www.jobint.com/wp-content/uploads/2022/06/tiimiit-320x202.png'
+  "https://www.jobint.com/wp-content/uploads/2022/06/grupo-piero-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/suavestar-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/piero-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/lbdo-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/gani-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/femsa-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/cannon-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/bbva-2-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/verisure-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/prisma-1-320x202.png",
+  "https://www.jobint.com/wp-content/uploads/2022/06/tiimiit-320x202.png",
 ];
 
 const settings = {
@@ -56,8 +56,12 @@ const Carrusel = () => {
   return (
     <Slider {...settings}>
       {images.map((image, index) => (
-        <div key={index} >
-          <img src={image} alt={`Image ${index}`} style={{ width: 250, height: 150 }} />
+        <div key={index}>
+          <img
+            src={image}
+            alt={`Image ${index}`}
+            style={{ width: 250, height: 150 }}
+          />
         </div>
       ))}
     </Slider>

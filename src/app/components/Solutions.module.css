@@ -1,56 +1,49 @@
-.h1{
-    font-size: 65px;
-    margin-bottom: 5%;
-    width: 30%;
-    margin: auto;
-  }
-  .container{
-    display: flex;
-    justify-content: center;
-    margin: 3%;
-    margin-top: 5%;
-    width: 80%;
-    margin-left: 10%;
+.h1 {
+  font-size: 65px;
+  margin-bottom: 5%;
+  width: 30%;
+  margin: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 3%;
+  margin-top: 5%;
+  width: 80%;
+  margin-left: 10%;
+}
 
-  }
+.container1 {
+  width: 75%;
+  padding: 2%;
+  border: solid rgba(77, 77, 77, 0.041) 1px;
+  margin-left: 5%;
+  box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
+}
+.container2 {
+  width: 35%;
+  padding: 2%;
+  border: solid grey 1px;
+}
+.container2 {
+  width: 40%;
+  padding: 2%;
+  border: solid grey 1px;
+}
 
-  .container1{
-    width: 75%;
-    padding: 2%;
-    border: solid rgba(77, 77, 77, 0.041) 1px;
-    margin-left: 5%;
-    box-shadow: 3px 4px rgba(128, 128, 128, 0.178);
-  }
-  .container2{
-    width: 35%;
-    padding: 2%;
-    border: solid grey 1px;
-  }
-  .container2{
-    width: 40%;
-    padding: 2%;
- border: solid grey 1px;
-  }
+.all {
+  margin-top: 10%;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  color: #0d164e;
+}
 
-  .all{
-    margin-top: 10%;
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    color: #0d164e;
-  }
+.h3 {
+  font-size: 35px;
+  margin-top: 5%;
+}
 
-
-  .h3{
-    font-size: 35px;
-    margin-top: 5%;
-  }
-
-  .p{
-    font-size: 30px;
-    margin-top: 5%;
-    line-height: 40px;
-  }
-
-
- 
-  
-  
+.p {
+  font-size: 30px;
+  margin-top: 5%;
+  line-height: 40px;
+}

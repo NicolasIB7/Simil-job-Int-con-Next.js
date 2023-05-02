@@ -1,31 +1,29 @@
-.div{
+.div {
   width: 40%;
   margin-right: 55%;
   color: white;
-  font-family:'Poppins, Arial, Helvetica, sans-serif' ;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
 }
 
-.h1{
+.h1 {
   font-size: 70px;
   margin-bottom: 5%;
-
 }
 
-.h3{
+.h3 {
   font-size: 30px;
   margin-bottom: 5%;
 }
 
-.button{
+.button {
   padding: 20px 50px;
   font-size: 30px;
   border-radius: 50px;
   background-color: #ff1a88;
   color: white;
-  font-family:'Poppins, Arial, Helvetica, sans-serif' ;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
   font-weight: bold;
 }
-
 
 .main {
   display: flex;
@@ -35,8 +33,7 @@
   padding: 6rem;
   min-height: 100vh;
   background-image: url("https://www.jobint.com/wp-content/uploads/2022/05/portada-scaled.jpg");
-  background-size:100% ;
-
+  background-size: 100%;
 }
 
 .description {
@@ -129,7 +126,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);

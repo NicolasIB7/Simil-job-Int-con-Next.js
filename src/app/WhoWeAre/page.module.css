@@ -1,74 +1,68 @@
-.div{
-    width: 40%;
-    margin-right: 55%;
-    color: white;
-    font-family:'Poppins, Arial, Helvetica, sans-serif' ;
-    margin: auto;
-    margin-top: 5%;
-  }
+.div {
+  width: 40%;
+  margin-right: 55%;
+  color: white;
+  font-family: "Poppins, Arial, Helvetica, sans-serif";
+  margin: auto;
+  margin-top: 5%;
+}
 
-.h3{
-    font-size: 35px;
-color: #ff1a88;
-  }
+.h3 {
+  font-size: 35px;
+  color: #ff1a88;
+}
 
-  .h2{
-    font-size: 40px;
-  }
+.h2 {
+  font-size: 40px;
+}
 
-  .p{
-    font-size: 25px;
-    margin-top: 5%;
-    line-height: 40px;
-    color: #0D164E;
-  }
+.p {
+  font-size: 25px;
+  margin-top: 5%;
+  line-height: 40px;
+  color: #0d164e;
+}
 
+.h1 {
+  font-size: 70px;
+}
 
-  .h1{
-    font-size: 70px;
+.h4 {
+  font-size: 30px;
+}
 
-  
-  }
+.img {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
 
-  .h4{
-    font-size: 30px;
+.div2 {
+  margin-top: 10%;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
 
-  }
+.info {
+  width: 40%;
+  margin-right: 15%;
+}
 
-  .img{
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 5%;
-  }
+.h5 {
+  font-size: 22px;
+  color: #0d164e;
+  margin-bottom: 40px;
+}
 
-  .div2{
-    margin-top: 10%;
-    display: flex;
-    margin-left: 5%;
-    margin-bottom: 5%;
-  }
+.fotos {
+  margin-top: 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  justify-items: center;
+}
 
-  .info{
-    width: 40%;
-    margin-right: 15%;
-  }
-
-  .h5{
-    font-size: 22px;
-    color: #0D164E;
-    margin-bottom: 40px;
-  }
-
-  .fotos{
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-    justify-items: center;
-
-    
-  }
-
-  .card{
-    margin-bottom: 60px;
-  }
+.card {
+  margin-bottom: 60px;
+}

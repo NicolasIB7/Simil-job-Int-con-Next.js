@@ -1,14 +1,11 @@
+"use client";
 
-
-"use client"
-
-import React, { useRef, useState } from 'react';
-import style from "./Contact.module.css"
-import Swal from 'sweetalert2';
-import "./Formm.css"
+import React, { useRef, useState } from "react";
+import style from "./Contact.module.css";
+import Swal from "sweetalert2";
+import "./Formm.css";
 
 function Form() {
-
   const emailRef = useRef();
   const nameRef = useRef();
   const asuntoRef = useRef();
@@ -21,11 +18,15 @@ function Form() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Swal.fire('', 'Tu mensaje fue recibido con exito. Nos estaremos contactando', 'success');
-    setName("")
-    setEmail("")
-    setAsunto("")
-    setInfo("")
+    Swal.fire(
+      "",
+      "Tu mensaje fue recibido con exito. Nos estaremos contactando",
+      "success"
+    );
+    setName("");
+    setEmail("");
+    setAsunto("");
+    setInfo("");
   };
 
   const handleNameChange = (e) => {
@@ -52,28 +53,72 @@ function Form() {
     <div className={style.form}>
       <form>
         <div className={style.form1}>
-          <label htmlFor="">Tu nombre</label>
-          <input class="input" ref={nameRef} style={{ height: 56, borderRadius: "3%", fontSize:20 }} value={name} onChange={handleNameChange} className={isNameValid ? "" : "invalid"}  />
-          {!isNameValid && <p style={{color:"red", fontSize:25}}  className="error">El campo es obligatorio</p>}
+          <label htmlFor=''>Tu nombre</label>
+          <input
+            class='input'
+            ref={nameRef}
+            style={{ height: 56, borderRadius: "3%", fontSize: 20 }}
+            value={name}
+            onChange={handleNameChange}
+            className={isNameValid ? "" : "invalid"}
+          />
+          {!isNameValid && (
+            <p style={{ color: "red", fontSize: 25 }} className='error'>
+              El campo es obligatorio
+            </p>
+          )}
         </div>
         <div className={style.form1}>
-          <label htmlFor="">Tu correo electrónico</label>
-          <input class="input" ref={emailRef} style={{ height: 56, borderRadius: "3%", fontSize:20 }} value={email} onChange={handleEmailChange} className={isEmailValid ? "" : "invalid"} />
-          {!isEmailValid && <p style={{color:"red", fontSize:25}} className="error">Por favor, ingresa un correo electrónico válido</p>}
+          <label htmlFor=''>Tu correo electrónico</label>
+          <input
+            class='input'
+            ref={emailRef}
+            style={{ height: 56, borderRadius: "3%", fontSize: 20 }}
+            value={email}
+            onChange={handleEmailChange}
+            className={isEmailValid ? "" : "invalid"}
+          />
+          {!isEmailValid && (
+            <p style={{ color: "red", fontSize: 25 }} className='error'>
+              Por favor, ingresa un correo electrónico válido
+            </p>
+          )}
         </div>
         <div className={style.form1}>
-          <label htmlFor="">Asunto</label>
-          <input class="input" ref={asuntoRef} style={{ height: 56, borderRadius: "3%", fontSize:20 }} value={asunto} onChange={handleAsuntoChange} className={isAsuntoValid ? "" : "invalid"} />
-          {!isAsuntoValid && <p style={{color:"red", fontSize:25}} className="error">Por favor, ingresa el asunto del mensaje</p>}
+          <label htmlFor=''>Asunto</label>
+          <input
+            class='input'
+            ref={asuntoRef}
+            style={{ height: 56, borderRadius: "3%", fontSize: 20 }}
+            value={asunto}
+            onChange={handleAsuntoChange}
+            className={isAsuntoValid ? "" : "invalid"}
+          />
+          {!isAsuntoValid && (
+            <p style={{ color: "red", fontSize: 25 }} className='error'>
+              Por favor, ingresa el asunto del mensaje
+            </p>
+          )}
         </div>
         <div className={style.form1}>
-          <label htmlFor="">Tu mensaje (opcional)</label>
-          <textarea class="input" ref={infoRef} style={{ height: 120, borderRadius: "3%", fontSize:20 }} value={info} onChange={handleInfoChange}></textarea>
+          <label htmlFor=''>Tu mensaje (opcional)</label>
+          <textarea
+            class='input'
+            ref={infoRef}
+            style={{ height: 120, borderRadius: "3%", fontSize: 20 }}
+            value={info}
+            onChange={handleInfoChange}></textarea>
         </div>
-        <button type='submit' onClick={handleSubmit} className={style.boton} disabled={!isNameValid || !isEmailValid || !isAsuntoValid}>Enviar</button>
+        <button
+          type='submit'
+          onClick={handleSubmit}
+          className={style.boton}
+          disabled={!isNameValid || !isEmailValid || !isAsuntoValid}>
+          Enviar
+        </button>
       </form>
-      </div>
-  )
+    </div>
+  );
 }
 
-export default Form
+export default Form;
